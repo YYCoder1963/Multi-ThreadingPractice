@@ -19,6 +19,7 @@
 		6821286922363A8C0028203A /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6821286822363A8C0028203A /* GCDViewController.m */; };
 		6821286C22363A940028203A /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6821286B22363A940028203A /* OperationViewController.m */; };
 		6821286F22363F350028203A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6821286E22363F350028203A /* BaseViewController.m */; };
+		682128762238956E0028203A /* CustomOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 682128752238956E0028203A /* CustomOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		6821286B22363A940028203A /* OperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
 		6821286D22363F350028203A /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		6821286E22363F350028203A /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		682128742238956E0028203A /* CustomOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomOperation.h; sourceTree = "<group>"; };
+		682128752238956E0028203A /* CustomOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				6821286B22363A940028203A /* OperationViewController.m */,
 				6821286D22363F350028203A /* BaseViewController.h */,
 				6821286E22363F350028203A /* BaseViewController.m */,
+				682128742238956E0028203A /* CustomOperation.h */,
+				682128752238956E0028203A /* CustomOperation.m */,
 			);
 			path = "Multi-ThreadingPractice";
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				682128762238956E0028203A /* CustomOperation.m in Sources */,
 				6821286622363A840028203A /* ThreadViewController.m in Sources */,
 				68212835223600300028203A /* ViewController.m in Sources */,
 				68212840223600310028203A /* main.m in Sources */,
